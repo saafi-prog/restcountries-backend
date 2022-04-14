@@ -9,7 +9,7 @@ CREATE TABLE countries (
     id SERIAL PRIMARY KEY,
     name varchar(255) NOT NULL,
     capital varchar(255) NOT NULL,
-    area INTEGER NOT NULL,
+    area decimal NOT NULL,
     population INTEGER NOT NULL,
     flag varchar(255) NOT NULL,
     geolocalisation varchar(255) NOT NULL
