@@ -7,7 +7,7 @@
  */
 CREATE TABLE countries (
     id SERIAL PRIMARY KEY,
-    country varchar(255) NOT NULL,
+    name varchar(255) NOT NULL,
     capital varchar(255) NOT NULL,
     area INTEGER NOT NULL,
     population INTEGER NOT NULL,
