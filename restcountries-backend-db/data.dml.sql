@@ -17,7 +17,7 @@ INSERT INTO countries (name, capital, area, population, flag, geolocalisation) V
     ('Vatican City State','Vatican City',0.44,451,'https://flagcdn.com/w320/li.png','https://www.openstreetmap.org/relation/36989'),
     ('Principality of Liechtenstein','Vaduz',160,38137,'https://flagcdn.com/w320/me.png','https://www.openstreetmap.org/relation/1155955'),
     ('Montenegro','Podgorica',13812,621718,'https://flagcdn.com/w320/sj.png','https://www.openstreetmap.org/relation/53296'),
-    ('Svalbard og Jan Mayen','Longyearbyen',-1,2562,'https://flagcdn.com/w320/mk.png','https://www.openstreetmap.org/relation/1337397'),
+    ('Svalbard og Jan Mayen','Longyearbyen',61022,2562,'https://flagcdn.com/w320/mk.png','https://www.openstreetmap.org/relation/1337397'),
     ('Republic of North Macedonia','Skopje',25713,2077132,'https://flagcdn.com/w320/dk.png','https://www.openstreetmap.org/relation/53293'),
     ('Kingdom of Denmark','Copenhagen',43094,5831404,'https://flagcdn.com/w320/gr.png','https://www.openstreetmap.org/relation/50046'),
     ('Hellenic Republic','Athens',131990,10715549,'https://flagcdn.com/w320/ad.png','https://www.openstreetmap.org/relation/192307'),
