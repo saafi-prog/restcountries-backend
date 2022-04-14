@@ -32,7 +32,7 @@ INSERT INTO countries (name, capital, area, population, flag, geolocalisation) V
 	('Republic of Finland', 'Helsinki', 338424.0, 5530719,'https://flagcdn.com/w320/fi.png','https://www.openstreetmap.org/relation/54224'), 
 	('Federal Republic of Germany', 'Berlin', 357114.0, 83240525, 'https://flagcdn.com/w320/de.png', 'https://www.openstreetmap.org/relation/51477'),
 	('Kingdom of the Netherlands', 'Amsterdam', 41850.0, 16655799, 'https://flagcdn.com/w320/nl.png', 'https://www.openstreetmap.org/relation/47796'), 
-	('French Republic', 'Paris', 551695.0, 67391582, 67391582, 'https://flagcdn.com/w320/fr.png', 'https://www.openstreetmap.org/relation/1403916'), 
+	('French Republic', 'Paris', 551695.0, 67391582, 'https://flagcdn.com/w320/fr.png', 'https://www.openstreetmap.org/relation/1403916'), 
 	('Republic of Austria', 'Vienna', 83871.0, 8917205, 'https://flagcdn.com/w320/at.png', 'https://www.openstreetmap.org/relation/16239'),
 	('Principality of Monaco', 'Monaco', 2.02,39244, 'https://flagcdn.com/w320/mc.png', 'https://www.openstreetmap.org/relation/1124039'),
 	('Republic of Ireland', 'Dublin',70273.0, 4994724,'https://flagcdn.com/w320/ie.png','https://www.openstreetmap.org/relation/62273'),
