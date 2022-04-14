@@ -12,5 +12,5 @@ CREATE TABLE countries (
     area INTEGER NOT NULL,
     population INTEGER NOT NULL,
     flag varchar(255) NOT NULL,
-    geolocalisation varchar(255) NOT NULL,
+    geolocalisation varchar(255) NOT NULL
 );
