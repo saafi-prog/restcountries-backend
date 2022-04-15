@@ -5,17 +5,18 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import co.simplon.p25.api.services.restCountriesService;
+import co.simplon.p25.api.service.RestCountriesService;
 
 @RestController
 @RequestMapping ("/restCountries")
 public class restCountriesController{
-	private final restCountriesService service;
+	private final RestCountriesService service;
 	
-	public restCountriesController(restCountriesService service){
+	public restCountriesController(RestCountriesService service){
 		this.service = service;}
+	
 	@GetMapping("/{id}")
-	public restCountriesService getById (@PathVariable("id") Long id){
+	public RestCountriesService getById (@PathVariable("id") Long id){
 		return ((restCountriesController) service).getById(id);
 	}
 }

@@ -1,12 +1,12 @@
 package co.simplon.p25.api.entities;
 
+//import java.util.List;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.JoinColumn;
-import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
 @Entity
@@ -16,23 +16,28 @@ public class Country {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 	
-	@Column(name = "names")
-    private String Name;
+	@Column(name = "name")
+    private String name;
 	
-	@Column(name = "capitals")
-    private String Capital;
+	@Column(name = "capital")
+    private String capital;
 	
-	@Column(name = "areas")
-    private int Area;
+	@Column(name = "area")
+    private int area;
 	
-	@Column(name = "populations")
-    private int Population;
+	@Column(name = "population")
+    private int population;
 	
-	@Column(name = "flags")
-    private String Flag;
+	@Column(name = "flag")
+    private String flag;
 	
-	@Column(name = "geolocolisations")
-    private String Geolocolisation;
+	@Column(name = "geolocalisation")
+    private String geolocalisation;
+	
+	
+
+	
+	// private List<Country> countries;
 	
 	
 	public Country(){
@@ -46,57 +51,57 @@ public class Country {
     // No setId!
 
 	public String getName() {
-		return Name;
+		return name;
 	}
 
 	public void setName(String name) {
-		Name = name;
+		this.name = name;
 	}
 
 	public String getCapital() {
-		return Capital;
+		return capital;
 	}
 
 	public void setCapital(String capital) {
-		Capital = capital;
+		this.capital = capital;
 	}
 
 	public int getArea() {
-		return Area;
+		return area;
 	}
 
 	public void setArea(int area) {
-		Area = area;
+		this.area = area;
 	}
 
 	public int getPopulation() {
-		return Population;
+		return population;
 	}
 
 	public void setPopulation(int population) {
-		Population = population;
+		this.population = population;
 	}
 
 	public String getFlag() {
-		return Flag;
+		return flag;
 	}
 
 	public void setFlag(String flag) {
-		Flag = flag;
+		this.flag = flag;
 	}
 
-	public String getGeolocolisation() {
-		return Geolocolisation;
+	public String getGeolocalisation() {
+		return geolocalisation;
 	}
 
 	public void setGeolocolisation(String geolocolisation) {
-		Geolocolisation = geolocolisation;
+		this.geolocalisation = geolocolisation;
 	}
 
 	@Override
 	public String toString() {
-		return "Country [id=" + id + ", Name=" + Name + ", Capital=" + Capital + ", Area=" + Area + ", Population="
-				+ Population + ", Flag=" + Flag + ", Geolocolisation=" + Geolocolisation + "]";
+		return "Country [id=" + id + ", Name=" + name + ", Capital=" + capital + ", Area=" + area + ", Population="
+				+ population + ", Flag=" + flag + ", Geolocolisation=" + geolocalisation + "]";
 	}
 	
 	
