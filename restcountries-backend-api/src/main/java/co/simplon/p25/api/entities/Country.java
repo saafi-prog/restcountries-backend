@@ -1,5 +1,8 @@
 package co.simplon.p25.api.entities;
 
+import java.util.ArrayList;
+import java.util.List;
+
 //import java.util.List;
 
 import javax.persistence.Column;
@@ -35,14 +38,11 @@ public class Country {
     private String geolocalisation;
 	
 	
-
-	
-	// private List<Country> countries;
-	
 	
 	public Country(){
 	
 }
+	
 	
 	public Long getId() {
 		return id;
@@ -94,9 +94,10 @@ public class Country {
 		return geolocalisation;
 	}
 
-	public void setGeolocolisation(String geolocolisation) {
-		this.geolocalisation = geolocolisation;
+	public void setGeolocolisation(String geolocalisation) {
+		this.geolocalisation = geolocalisation;
 	}
+	
 
 	@Override
 	public String toString() {
