@@ -1,6 +1,5 @@
 package co.simplon.p25.api.entities;
 
-import java.util.ArrayList;
 import java.util.List;
 
 //import java.util.List;
@@ -34,13 +33,29 @@ public class Country {
 	@Column(name = "flag")
     private String flag;
 	
-	@Column(name = "geolocalisation")
-    private String geolocalisation;
+	@Column (name= "latitude")
+	private int latitude;
 	
 	
+	@Column(name = "longitude")
+	private int longitude;
 	
+	@Column(name = "geolocation")
+	private String geolocation;
+	
+	
+
+	public String getGeolocation() {
+		return geolocation;
+	}
+
+
+	public void setGeolocation(String geolocation) {
+		this.geolocation = geolocation;
+	}
+
+
 	public Country(){
-	
 }
 	
 	
@@ -89,21 +104,41 @@ public class Country {
 	public void setFlag(String flag) {
 		this.flag = flag;
 	}
-
-	public String getGeolocalisation() {
-		return geolocalisation;
-	}
-
-	public void setGeolocolisation(String geolocalisation) {
-		this.geolocalisation = geolocalisation;
-	}
 	
+
+	public int getLatitude() {
+		return latitude;
+	}
+
+
+	public void setLatitude(int latitude) {
+		this.latitude = latitude;
+	}
+
+
+	public int getLongitude() {
+		return longitude;
+	}
+
+
+	public void setLongitude(int longitude) {
+		this.longitude = longitude;
+	}
+
 
 	@Override
 	public String toString() {
-		return "Country [id=" + id + ", Name=" + name + ", Capital=" + capital + ", Area=" + area + ", Population="
-				+ population + ", Flag=" + flag + ", Geolocolisation=" + geolocalisation + "]";
+		return "Country [id=" + id + ", name=" + name + ", capital=" + capital + ", area=" + area + ", population="
+				+ population + ", flag=" + flag + ", latitude=" + latitude + ", longitude=" + longitude
+				+ ", geolocation=" + geolocation + "]";
 	}
+
+
+	
+	}
+
+
+
 	
 	
-}
+
