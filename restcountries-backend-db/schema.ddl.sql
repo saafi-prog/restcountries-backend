@@ -12,7 +12,7 @@ CREATE TABLE countries (
     area decimal NOT NULL,
     population INTEGER NOT NULL,
     flag varchar(255) NOT NULL,
-    latitude varchar(255) NOT NULL,
-    longitude varchar(255) NOT NULL,
-    geolocation varchar(255)NOT NULL,
+    latitude decimal(255) NOT NULL,
+    longitude decimal(255) NOT NULL,
+    geolocation varchar(255)NOT NULL
 );

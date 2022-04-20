@@ -49,7 +49,7 @@ INSERT INTO countries (name, capital, area, population, flag, latitude, longitud
 ('Kingdom of Belgium', 'Brussels', 30528, 1555997, 'https://flagcdn.com/w320/be.png', 50.8503, 4.3517 ,'https://www.openstreetmap.org/relation/52411'),
 ('Kingdom of Norway', 'Oslo', 323802, 5379475, 'https://flagcdn.com/w320/no.png',59.911491, 10.757933, 'https://www.openstreetmap.org/relation/2978650'),
 ('Republic of Slovenia', 'Ljubljana', 20273, 2100126, 'https://flagcdn.com/w320/si.png',59.911491, 10.757933,'https://www.openstreetmap.org/relation/218657'),
-('Russian Federation', 'Moscow',17098242, 144104080, 'https://flagcdn.com/w320/ru.png', ,54.68,25.32	'https://www.openstreetmap.org/relation/60189#map=3/65.15/105.29'),
+('Russian Federation', 'Moscow',17098242, 144104080, 'https://flagcdn.com/w320/ru.png',54.68,25.32,	'https://www.openstreetmap.org/relation/60189#map=3/65.15/105.29'),
 ('Republic of Lithuania', 'Vilnius', 65300, 2794700, 'https://flagcdn.com/w320/lt.png',47.5,19.08, 'https://www.openstreetmap.org/relation/72596'),
 ('Hungary', 'Budapest', 93028, 9749763, 'https://flagcdn.com/w320/hu.png', 59.33,18.05,'https://www.openstreetmap.org/relation/21335'),
 ('Kingdom of Sweden', 'Stockholm', 450295, 10353442, 'https://flagcdn.com/w320/se.png',41.32,19.82, 'https://www.openstreetmap.org/relation/52822'),
