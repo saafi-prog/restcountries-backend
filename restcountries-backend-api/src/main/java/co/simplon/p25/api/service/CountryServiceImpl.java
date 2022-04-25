@@ -25,7 +25,6 @@ public class CountryServiceImpl implements CountryService {
 
 	@Override
 	public List<CountryName> getCountryNames() {
-		
 		return repository.findAllProjectedBy(CountryName.class);
 	}
 
