@@ -14,5 +14,6 @@ CREATE TABLE countries (
     flag varchar(255) NOT NULL,
     latitude decimal(255) NOT NULL,
     longitude decimal(255) NOT NULL,
-    geolocation varchar(255)NOT NULL
+    geolocation varchar(255)NOT NULL,
+    code_iso varchar (30)NOT NULL
 );

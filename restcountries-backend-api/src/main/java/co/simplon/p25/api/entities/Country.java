@@ -43,7 +43,18 @@ public class Country {
 	@Column(name = "geolocation")
 	private String geolocation;
 	
+	@Column (name="iso_code")
+	public String iso_code;
 	
+	public String getIso_code() {
+		return iso_code;
+	}
+
+
+	public void setIso_code(String iso_code) {
+		this.iso_code = iso_code;
+	}
+
 
 	public String getGeolocation() {
 		return geolocation;
@@ -53,7 +64,8 @@ public class Country {
 	public void setGeolocation(String geolocation) {
 		this.geolocation = geolocation;
 	}
-
+	
+	
 
 	public Country(){
 }
@@ -130,12 +142,16 @@ public class Country {
 	public String toString() {
 		return "Country [id=" + id + ", name=" + name + ", capital=" + capital + ", area=" + area + ", population="
 				+ population + ", flag=" + flag + ", latitude=" + latitude + ", longitude=" + longitude
-				+ ", geolocation=" + geolocation + "]";
+				+ ", geolocation=" + geolocation + ", iso_code=" + iso_code + "]";
 	}
 
 
 	
 	}
+
+
+	
+	
 
 
 
