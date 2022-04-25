@@ -43,7 +43,7 @@ public class Country {
 	@Column(name = "geolocation")
 	private String geolocation;
 	
-	@Column (name="iso_code")
+	@Column (name="code_iso")
 	public String iso_code;
 	
 	public String getIso_code() {
