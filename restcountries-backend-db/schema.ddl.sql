@@ -7,15 +7,15 @@
  */
 CREATE TABLE countries (
     id SERIAL PRIMARY KEY,
-    name varchar(255) NOT NULL,
+    name varchar(255) UNIQUE NOT NULL,
     capital varchar(255) NOT NULL,
     area decimal NOT NULL,
     population INTEGER NOT NULL,
     flag varchar(255) NOT NULL,
     latitude decimal(255) NOT NULL,
     longitude decimal(255) NOT NULL,
-    geolocation varchar(255)NOT NULL,
-    code_iso varchar (30)NOT NULL
+    geolocation varchar(255) NOT NULL,
+    code_iso varchar(30) NOT NULL
 );
 
 CREATE TABLE users (
