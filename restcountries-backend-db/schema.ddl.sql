@@ -18,6 +18,11 @@ CREATE TABLE countries (
     code_iso varchar(30) NOT NULL
 );
 
+CREATE TABLE role (
+	id SERIAL PRIMARY KEY,
+	name varchar(20) UNIQUE NOT NULL
+);
+
 CREATE TABLE users (
 	id SERIAL PRIMARY KEY,
 	username varchar(255) UNIQUE NOT NULL,
@@ -28,8 +33,5 @@ CREATE TABLE users (
     	REFERENCES role(id)
 );
 
-CREATE TABLE role (
-	id SERIAL PRIMARY KEY,
-	name varchar(20) UNIQUE NOT NULL
-);
+
 
