@@ -61,6 +61,6 @@ INSERT INTO countries (name, capital, area, population, flag, latitude, longitud
 ('Iceland', 'Reykjavik',103000,	366425,	'https://flagcdn.com/w320/is.png',64.15,-21.95, 'https://www.openstreetmap.org/relation/299133','IS');
 
 
-INSERT INTO role (name) values ("ROLE_ADMIN");
+INSERT INTO roles (name) values ('ROLE_ADMIN');
 
 	

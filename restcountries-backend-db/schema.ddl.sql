@@ -18,7 +18,7 @@ CREATE TABLE countries (
     code_iso varchar(30) NOT NULL
 );
 
-CREATE TABLE role (
+CREATE TABLE roles (
 	id SERIAL PRIMARY KEY,
 	name varchar(20) UNIQUE NOT NULL
 );
@@ -30,7 +30,7 @@ CREATE TABLE users (
 	role_id INTEGER, -- on ne met pas "NOT NUll" car on peut detenir zero role.
 	CONSTRAINT fk_role_id
     	FOREIGN KEY (role_id)
-    	REFERENCES role(id)
+    	REFERENCES roles(id)
 );
 
 
