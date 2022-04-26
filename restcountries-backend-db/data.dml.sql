@@ -59,4 +59,8 @@ INSERT INTO countries (name, capital, area, population, flag, latitude, longitud
 ('Isle of Man', 'Douglas', 572, 85032, 'https://flagcdn.com/w320/im.png',45.8,16, 'https://www.openstreetmap.org/relation/62269','IL'),
 ('Republic of Croatia','Zagreb', 56594, 4047200, 'https://flagcdn.com/w320/hr.png', 64.15,-21.95,'https://www.openstreetmap.org/relation/214885','HR'),
 ('Iceland', 'Reykjavik',103000,	366425,	'https://flagcdn.com/w320/is.png',64.15,-21.95, 'https://www.openstreetmap.org/relation/299133','IS');
+
+
+INSERT INTO role (name) values ("ROLE_ADMIN");
+
 	
